@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+.header h1 {
+    font-size: 50px;
+}
+
+/*Стиль навигации */
+.topnav {
+   overflow: hidden;
+   background-color: #333;
+}
+/*Стиль ссылок в навигации */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Стиль основного содержания */
+.summary{
+	padding: 0 10%;
+}
+
+/*Стиль фотографий */
+.photo {
+	width: 30%;
+	padding: 1.11rem;
+	border-radius: 5px;
+	margin: 0 20px 1.5rem auto;
+	background-color: #aaa;
+	float: left;
+}
+.photo img {
+	width: 100%;
+}
+.photo .caption {
+	font-size: 14px;
+	font-style: italic;
+}
+
+/*Очистка под фото*/
+h2 {
+    clear: left;
+}
+
+/* Footer */
+.footer {
+	clear: left;
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
